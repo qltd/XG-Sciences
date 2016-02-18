@@ -55,7 +55,7 @@
 		</div>
 
 		<div class="right">
-			<?php the_field('sidebars'); ?>
+			<?php the_field('sidebar'); ?>
 
 			<div id="post-list">
 				<h2 class="cat-title"><a href="<?php echo get_category_link(1); ?>">Events</a></h2>

@@ -1,9 +1,9 @@
 <div class="latest-posts bucket body-text">
 	<?php
-		$category = get_the_category(get_sub_field('category')); 
-		echo '<h2 class="cat-title"><a href="' . get_category_link(get_sub_field('category')) . '">' . $category[0]->cat_name . '</a></h2>';
+		$category = get_sub_field('category');
+		echo '<h2 class="cat-title"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></h2>';
 	?>
-	<?php query_posts('cat=' . get_sub_field('category') .'&showposts='. get_sub_field('latest_posts'));
+	<?php query_posts('cat=' . $category->term_id .'&showposts='. get_sub_field('latest_posts'));
 	while (have_posts()) : the_post(); ?>
 		<div class="post">
 			<h3><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h3>

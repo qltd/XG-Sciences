@@ -1,9 +1,9 @@
-<?php get_header(); 
-  $parent3 = get_post_ancestors($post->ID); 
+<?php get_header();
+  $parent3 = get_post_ancestors($post->ID);
   $count3 = count($parent3);
-  $level3 = $parent3[$count3-1];
+  $level3 = ($count3 > 0) ? $parent3[$count3-1] : 0;
   $level3 = ($level3 == '') ? $level3 = $post->ID : $level3;
-  $slug = basename(get_permalink($level3)); 
+  $slug = basename(get_permalink($level3));
 ?>
 
 <div id="content">
@@ -34,7 +34,7 @@
 					<?php the_sub_field('text'); ?>
 				</li>
 			<?php endwhile; ?>
-			
+
 		</ul>
 
 
@@ -45,11 +45,11 @@
 					<div class="text"><?php the_sub_field('text'); ?></div>
 				</li>
 			<?php endwhile; ?>
-			
+
 		</ul>
 
 		</div>
-		
+
 	</div>
 
 	<div id="sidebar">
