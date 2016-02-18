@@ -1,0 +1,16 @@
+[11-Feb-2013 23:17:24 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/xgscienc/public_html/wp-includes/registration-functions.php on line 7
+[01-May-2013 03:29:54 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/xgscienc/public_html/wp-includes/default-widgets.php on line 14
+[01-May-2013 03:29:55 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/xgscienc/public_html/wp-includes/class-wp-xmlrpc-server.php on line 22
+[01-May-2013 03:29:58 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/xgscienc/public_html/wp-includes/admin-bar.php on line 39
+[01-May-2013 03:29:59 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/xgscienc/public_html/wp-includes/theme.php on line 570
+[01-May-2013 03:30:00 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/xgscienc/public_html/wp-includes/class.wp-styles.php on line 19
+[01-May-2013 03:30:01 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/xgscienc/public_html/wp-includes/kses.php on line 1430
+[01-May-2013 03:30:03 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/xgscienc/public_html/wp-includes/feed-atom.php on line 8
+[01-May-2013 03:30:04 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/xgscienc/public_html/wp-includes/rss-functions.php on line 8
+[01-May-2013 03:30:06 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/xgscienc/public_html/wp-includes/feed-rss2-comments.php on line 8
+[01-May-2013 03:30:07 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/xgscienc/public_html/wp-includes/author-template.php on line 394
+[01-May-2013 03:30:09 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/xgscienc/public_html/wp-includes/registration-functions.php on line 7
+[01-May-2013 03:30:12 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/xgscienc/public_html/wp-includes/registration.php on line 7
+[16-Jul-2013 19:16:33 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/xgscienc/public_html/wp-includes/registration-functions.php on line 7
+[26-Mar-2015 22:40:44 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/xgscienc/public_html/wp-includes/rss-functions.php on line 8
+[24-Sep-2015 18:49:54 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/xgscienc/public_html/wp-includes/rss-functions.php on line 8
