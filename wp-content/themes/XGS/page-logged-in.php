@@ -58,7 +58,8 @@ get_header();
         </ul>
 
         <?php else: ?>
-            <h3>Sorry, you must first log in to view this page.</h3><br />
+            <h3>Sorry, you must first log in to view this page.</h3>
+            <p>For more information, or to request a login, please contact us at <a href="mailto:info@xgsciences.com">info@xgsciences.com</a>.</p><br /><br />
 
             <?php $args = array(
                     'echo' => true,
